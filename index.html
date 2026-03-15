@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO básico -->
+  <title>Krafty Yam — Traducción & Edición de Patrones de Crochet</title>
+  <meta name="description"
+    content="Traducción de patrones de crochet, amigurumi y tejido ESP/ENG. Tech editing, proofreading y pattern testing. Trabajo bilingüe con precisión artesanal.">
+  <meta name="author" content="Yamila Bertoni">
+  <meta name="keywords"
+    content="traducción patrones crochet, amigurumi, knitting, tech editor, pattern testing, español inglés">
+  <link rel="canonical" href="https://cambiar.com/">
+
+  <!-- Open Graph (para compartir en redes sociales) -->
+  <meta property="og:title" content="Krafty Yam — Traducción & Edición de Patrones">
+  <meta property="og:description"
+    content="Traducción de patrones de crochet, amigurumi y tejido ESP/ENG. Tech editing y pattern testing.">
+  <meta property="og:image" content="https://kraftyyam.com/img/og-image.jpg">
+  <meta property="og:url" content="https://kraftyyam.com/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Krafty Yam — Traducción & Edición de Patrones">
+  <meta name="twitter:description" content="Traducción de patrones de crochet, amigurumi y tejido ESP/ENG.">
+  <meta name="twitter:image" content="https://kraftyyam.com/img/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./img/favicon.png">
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="#"><span>Krafty</span> Yam</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#servicios" data-lang="es">Servicios</a><a href="#servicios" data-lang="en"
+            style="display:none">Services</a></li>
+        <li><a href="#sobre" data-lang="es">Sobre mí</a><a href="#sobre" data-lang="en" style="display:none">About</a>
+        </li>
+        <li><a href="#contacto" data-lang="es">Contacto</a><a href="#contacto" data-lang="en"
+            style="display:none">Contact</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn active" id="btn-es" onclick="setLang('es')">ESP</button>
+        <button class="lang-btn" id="btn-en" onclick="setLang('en')">ENG</button>
+      </div>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#servicios" data-lang="es" onclick="closeMenu()">Servicios</a>
+    <a href="#servicios" data-lang="en" style="display:none" onclick="closeMenu()">Services</a>
+    <a href="#sobre" data-lang="es" onclick="closeMenu()">Sobre mí</a>
+    <a href="#sobre" data-lang="en" style="display:none" onclick="closeMenu()">About</a>
+    <a href="#contacto" data-lang="es" onclick="closeMenu()">Contacto</a>
+    <a href="#contacto" data-lang="en" style="display:none" onclick="closeMenu()">Contact</a>
+    <div class="mobile-lang">
+      <button class="lang-btn active" id="btn-es-m" onclick="setLang('es')">ESP</button>
+      <button class="lang-btn" id="btn-en-m" onclick="setLang('en')">ENG</button>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-tag">✦ Crochet · Amigurumi · Knitting</div>
+      <h1 data-lang="es">Patrones con <em>amor</em> y precisión</h1>
+      <h1 data-lang="en" style="display:none">Patterns made with <em>love</em> and precision</h1>
+      <p class="hero-sub" data-lang="es">Traducción de patrones, edición técnica y testing — con ojo de artesana y
+        corazón de creadora.</p>
+      <p class="hero-sub" data-lang="en" style="display:none">Pattern translation, technical editing and testing — with
+        a crafter's eye and a creator's heart.</p>
+      <div class="hero-btns">
+        <a href="#servicios" class="btn-primary" data-lang="es">Ver servicios</a>
+        <a href="#servicios" class="btn-primary" data-lang="en" style="display:none">See services</a>
+        <a href="#contacto" class="btn-outline" data-lang="es">Trabajemos juntas</a>
+        <a href="#contacto" class="btn-outline" data-lang="en" style="display:none">Let's work together</a>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="divider reveal">
+    <span data-lang="es">— servicios —</span>
+    <span data-lang="en" style="display:none">— services —</span>
+  </div>
+
+  <section class="section" id="servicios">
+    <p class="section-label reveal" data-lang="es">Lo que hago</p>
+    <p class="section-label reveal" data-lang="en" style="display:none">What I do</p>
+    <h2 class="section-title reveal" data-lang="es">Mis servicios</h2>
+    <h2 class="section-title reveal" data-lang="en" style="display:none">My services</h2>
+    <p class="section-desc reveal" data-lang="es">Cada patrón merece ser claro, preciso y accesible para tejedoras de
+      todo el mundo.</p>
+    <p class="section-desc reveal" data-lang="en" style="display:none">Every pattern deserves to be clear, precise and
+      accessible for crafters around the world.</p>
+    <div class="services-grid">
+      <div class="service-card card-rose reveal delay-1">
+        <div class="service-icon">📖</div>
+        <h3 data-lang="es">Traducción de Patrones</h3>
+        <h3 data-lang="en" style="display:none">Pattern Translation</h3>
+        <p data-lang="es">Traduzco tus patrones de crochet, amigurumi y tejido con terminología técnica precisa,
+          respetando el estilo original y la claridad para artesanas de habla hispana e inglesa.</p>
+        <p data-lang="en" style="display:none">I translate your crochet, amigurumi and knitting patterns with precise
+          technical terminology, preserving the original style and clarity for both Spanish and English-speaking
+          crafters.</p>
+        <div class="service-langs">
+          <span class="lang-pill">Español → English</span>
+          <span class="lang-pill">English → Español</span>
+        </div>
+      </div>
+      <div class="service-card card-lav reveal delay-2">
+        <div class="service-icon">✏️</div>
+        <h3>Tech Editing & Proofreading</h3>
+        <p data-lang="es">Reviso la consistencia técnica de tus patrones: puntos, abreviaciones, instrucciones y
+          diagramas. Me aseguro de que todo funcione antes de publicar.</p>
+        <p data-lang="en" style="display:none">I review the technical consistency of your patterns: stitches,
+          abbreviations, instructions and diagrams. I make sure everything works before you publish.</p>
+        <div class="service-langs">
+          <span class="lav-pill">Español</span>
+          <span class="lav-pill">English</span>
+        </div>
+      </div>
+      <div class="service-card card-lav reveal delay-3">
+        <div class="service-icon">🧵</div>
+        <h3>Pattern Testing</h3>
+        <p data-lang="es">Tejo tus patrones paso a paso, verificando que las instrucciones sean claras y el resultado
+          sea el esperado. Feedback detallado con fotos del proceso.</p>
+        <p data-lang="en" style="display:none">I stitch your patterns step by step, verifying that instructions are
+          clear and results match expectations. Detailed feedback with process photos.</p>
+        <div class="service-langs">
+          <span class="lav-pill">Crochet</span>
+          <span class="lav-pill">Amigurumi</span>
+          <span class="lav-pill">Knitting</span>
+        </div>
+      </div>
+      <div class="service-card card-rose reveal delay-4">
+        <div class="service-icon">🌍</div>
+        <h3 data-lang="es">¿Necesitás algo especial?</h3>
+        <h3 data-lang="en" style="display:none">Need something special?</h3>
+        <p data-lang="es">Si tenés un proyecto particular en mente — terminología especializada, plazos ajustados o
+          formatos específicos — hablemos. Me adapto a lo que necesitás.</p>
+        <p data-lang="en" style="display:none">If you have a specific project in mind — specialized terminology, tight
+          deadlines or specific formats — let's talk. I adapt to what you need.</p>
+        <div class="service-langs">
+          <span class="lang-pill" data-lang="es">Consulta personalizada</span>
+          <span class="lang-pill" data-lang="en" style="display:none">Custom inquiry</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section" id="sobre">
+    <div class="about-visual reveal-left">
+      <div class="about-avatar">
+        <img src="./assets/img/profile.png" alt=" avatar">
+      </div>
+    </div>
+    <div class="about-text reveal-right">
+      <p class="section-label" style="text-align:left" data-lang="es">Sobre mí</p>
+      <p class="section-label" style="text-align:left;display:none" data-lang="en">About me</p>
+      <h2 data-lang="es">Hola, soy <em style="font-style:italic;color:var(--rose-dark)">Yam</em></h2>
+      <h2 data-lang="en" style="display:none">Hi, I'm <em style="font-style:italic;color:var(--rose-dark)">Yam</em></h2>
+      <p data-lang="es">Artista textil apasionada por el crochet, el amigurumi y el tejido. Combino mi amor por la
+        artesanía con precisión técnica para ayudar a otras creadoras a compartir sus patrones con el mundo.</p>
+      <p data-lang="en" style="display:none">Textile artist passionate about crochet, amigurumi and knitting. I combine
+        my love for crafts with technical precision to help other creators share their patterns with the world.</p>
+      <p data-lang="es">Trabajo en inglés y español, entendiendo las particularidades de cada idioma en el mundo del
+        tejido.</p>
+      <p data-lang="en" style="display:none">I work in both English and Spanish, understanding the nuances of each
+        language in the world of fiber arts.</p>
+      <div class="skills-list">
+        <span class="skill-tag">Crochet</span>
+        <span class="skill-tag">Amigurumi</span>
+        <span class="skill-tag">Knitella</span>
+        <span class="skill-tag" data-lang="es">Bilingüe ESP/ENG</span>
+        <span class="skill-tag" data-lang="en" style="display:none">Bilingual ESP/ENG</span>
+        <span class="skill-tag">Tech editing</span>
+        <span class="skill-tag">Pattern testing</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contacto">
+    <div class="contact-card reveal">
+      <p class="section-label" data-lang="es">Contacto</p>
+      <p class="section-label" data-lang="en" style="display:none">Contact</p>
+      <h2 data-lang="es">¡Trabajemos juntas!</h2>
+      <h2 data-lang="en" style="display:none">Let's work together!</h2>
+      <p data-lang="es">¿Tenés un patrón que necesita traducción, revisión o testing? Escribime y lo resolvemos.</p>
+      <p data-lang="en" style="display:none">Do you have a pattern that needs translation, editing or testing? Reach out
+        and let's make it happen.</p>
+      <div class="contact-methods">
+        <a href="https://www.instagram.com/krafty.yam/" class="contact-row" target="_blank">
+          <span class="contact-icon">📷</span>
+          <div>
+            <span class="contact-label">Instagram</span>
+            <span class="contact-value">@krafty.yam</span>
+          </div>
+        </a>
+        <div class="contact-row">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">hola@kraftyyam.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Krafty Yam</div>
+    <div class="footer-text">
+      <p>© 2026 · <a href="https://leledigitalweb.com.ar" target="_blank"
+          style="text-decoration: none; color: inherit;"><strong>Lele Digital Web</strong></a>
+      </p>
+    </div>
+    <div>ESP / ENG</div>
+  </footer>
+
+
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
